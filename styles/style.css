@@ -1,5 +1,52 @@
 @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&family=Sriracha&display=swap');
 
-body {
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&family=Space+Grotesk:wght@300..700&family=Sriracha&display=swap');
+
+
+
+
+h1,h2,h3 {
     font-family:  "Oswald", sans-serif;
+    text-align:center;
+}
+
+p {
+    font-family: "Space Grotesk", sans-serif;
+}
+
+body {
+    background-image: linear-gradient(to left, #0e0f11, #131821, #172031, #1a2842, #1e3053);
+}
+
+#tarjeta {
+    background-color: aliceblue;
+    border-radius: 26px;
+border-top-right-radius: 1px;
+border-bottom-left-radius: 1px;
+
+
+    
+}
+
+#foto {
+   padding:0px;
+     border-left:1px solid black;
+     border-right:1px solid black;
+    border-radius: 26px;
+    border-top-right-radius: 1px;
+    border-bottom-left-radius: 1px;
+    width:250px;
+   
+    
+}
+
+.info {
+    text-align:center;
+    line-height: 2.0;
+   
+}
+
+a {
+    color:#1c4799;
+    font-family:monospace;
 }
